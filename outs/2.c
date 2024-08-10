@@ -22,4 +22,14 @@ int main()
     }
 
     printf("Sum of number %d is %d\n", n, out);
+
+    // Printing the numbers in reverse
+    printf("Reversed Numbers\n");
+
+    for (int i = n; i >= 1; i--)
+    {
+        printf("%d \n", i);
+    }
+
+    return 0;
 }
